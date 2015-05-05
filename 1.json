@@ -1,5 +1,5 @@
 
 {"name": "Hopless destination",
 "description":"You find yourself in room 1",
-"neighbors": {"e":3, "w":4, "n":2 "s":5}
+"neighbors": {"e":3, "w":4, "n":2, "s":5}
 }

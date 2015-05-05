@@ -1,0 +1,5 @@
+
+{"name": "big room",
+"description":"You find yourself in room 11",
+"neighbors": {"n":12, "w":10}
+}

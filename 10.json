@@ -1,0 +1,5 @@
+
+{"name": "south south east tunnle",
+"description":"You find yourself in room 10, a tunnle that curves to the left",
+"neighbors": {"e":11, "n":8}
+}
