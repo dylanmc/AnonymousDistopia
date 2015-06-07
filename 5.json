@@ -1,4 +1,3 @@
-
 {"name": "5",
 "description":"You find yourself in room 5\nThis room smells dank. There is a dripping \nsound coming from the corner.",
 "neighbors": {"n":1, "e":8, "w":4}

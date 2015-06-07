@@ -1,5 +1,6 @@
 
-{"name": "Hopless destination",
-"description":"You find yourself in room 1",
-"neighbors": {"e":3, "w":4, "n":2, "s":5}
+{"name": "starting point",
+"description":"You find yourself in room 1 with a small spiral staircase going up",
+"neighbors": {"east":3, "west":4, "north":2, "south":5, "up":15},
+"contents":{"chest":["Common Fire-Axe", "Weak Scrol of Demons"], "trunk":[]}
 }

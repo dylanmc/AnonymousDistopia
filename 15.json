@@ -1,0 +1,5 @@
+
+{"name": "upper floor entrance",
+"description":"You are in a small spiral staircase on the 2nd floor",
+"neighbors": {"down":1}
+}
