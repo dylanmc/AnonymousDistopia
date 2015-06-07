@@ -1,5 +1,5 @@
 
 {"name": "east",
 "description":"You find yourself in room 3",
-"neighbors": {"w":1, "n":6, "s":8}
+"neighbors": {"west":1, "north":6, "south":8}
 }

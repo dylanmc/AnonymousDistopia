@@ -28,21 +28,40 @@ class Game(cmd.Cmd):
         print("")
         print(self.loc.description)
 
-    def do_n(self, args):
+    def do_open(self, args):
+        """Open Chest"""
+
+    def do_help(self, args):
+        """Help Command"""
+        print "up, down, north, south, east, west, open, help, quit"
+
+    def do_EasterEgg(self, args):
+        """Easter egg"""
+        print "Hey, look You found an easter egg"
+
+    def do_up(self, args):
+        """Go up"""
+        self.move('up')
+
+    def do_down(self, args):
+        """Go down"""
+        self.move('down')
+
+    def do_north(self, args):
         """Go north"""
-        self.move('n')
+        self.move('north')
 
-    def do_e(self, args):
+    def do_east(self, args):
         """Go east"""
-        self.move('e')
+        self.move('east')
 
-    def do_s(self, args):
+    def do_south(self, args):
         """Go south"""
-        self.move('s')
+        self.move('south')
 
-    def do_w(self, args):
+    def do_west(self, args):
         """Go west"""
-        self.move('w')
+        self.move('west')
 
     def do_quit(self, args):
         """Leaves the game"""
